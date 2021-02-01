@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electron y MySql</title>
+   
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="card-title">Lista de productos</h2>
+
+      <form class="form mediow" method="POST" id="form">
+        <input type="text" id="name" class="input-control" placeholder="Nombre del producto">
+        <input type="number" step="any" id="price" class="input-control" placeholder="$ precio del producto">
+        <textarea name="" id="description"  class="input-control" cols="30" rows="10" placeholder="Descipción del producto"></textarea>
+        <input type="submit" id="btnsend" value="Enviar Datos" class="btn red">
+    </form>
+      <div class="mediow" id="products"><h2>Productos</h2>
+        
+    </div>
+    </div>
+  </body>
+  <script  src="./app.js"></script>
+</html>

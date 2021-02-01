@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: center;
+}
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mediow {
+  width: 47%;
+  margin: 1%;
+  box-sizing: border-box;
+}
+
+/* formulario */
+.input-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px auto;
+  font-family: "Arial" sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin: 5px auto;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.red {
+  color: aliceblue;
+  background-color: brown;
+}
+
+/* productos */
+
+.cardProduct {
+  width: 47%;
+  border: 1px solid #ccc;
+  margin: 0.8%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.cardProduct h2 {
+  color: brown;
+  font-weight: 500;
+  font-size: 1.3em;
+  text-align: center;
+}
+.cardProduct h4 {
+  color: #666;
+
+  text-align: center;
+}
+.cardProduct p {
+  font-size: 0.8em;
+}
+
+#products {
+  height: 80vh;
+  overflow-y: auto;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.btne {
+  width: 40%;
+  margin: 0.5em;
+  box-sizing: border-box;
+  border: 0px;
+  padding: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+}
