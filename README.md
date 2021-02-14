@@ -1,2 +1,2 @@
 # electron-mysql
-Pequeña app de escritorio creada con Electron y con una base de datos en Mysql
+Small desktop app created with Electron and with a database in Mysql
